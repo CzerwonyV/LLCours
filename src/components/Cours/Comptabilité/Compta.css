@@ -20,6 +20,10 @@
     color: #e35b80 !important;
 }
 
-body {
-    font-size: 0.68rem !important;
-}
+@media screen and (max-width: 601px) {
+    .nav-tabs .nav-item {
+        font-size: 0.68rem;
+    }
+  }
+  
+
