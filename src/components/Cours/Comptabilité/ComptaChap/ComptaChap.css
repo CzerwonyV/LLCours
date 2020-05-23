@@ -1,0 +1,20 @@
+.ImgAll {
+    width: 100%;
+}
+
+.btn-secondary {
+    background-color: white !important;
+    border-color: #e35b80 !important;
+    color: #e35b80 !important;
+}
+  
+.btn-secondary:hover {
+    background-color: #e35b80 !important;
+    border-color: #e35b80 !important;
+    color: white !important;
+}
+
+.ButtonBottom{
+    display: flex;
+    justify-content: space-around;
+}

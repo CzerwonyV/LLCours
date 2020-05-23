@@ -10,6 +10,8 @@ import {
 } from "reactstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./NavBar.css";
+import Compta from "../Cours/Comptabilité/Compta"
+import Finance from "../Cours/Finance/Finance"
 
 const NavBarMB = props => {
   const [isOpen, setIsOpen] = useState(false);
@@ -67,9 +69,17 @@ const NavBarMB = props => {
           </Collapse>
         </Navbar>
         <Switch>
-          <Route path="/Portfolio">
+          <Route path="/Comptabilité">
+            <Compta />
           </Route>
-          <Route path="/Contact">
+          <Route path="/DroitFiscal">
+          </Route>
+          <Route path="/DroitDesSociétés">
+          </Route>
+          <Route path="/Finance">
+            <Finance />
+          </Route>
+          <Route path="/Anglais">
           </Route>
           <Route exact path="/">
           </Route>
