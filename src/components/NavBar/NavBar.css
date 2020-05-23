@@ -1,0 +1,35 @@
+.linkNavBar {
+    color: white;
+  }
+  
+  .linkNavBar:hover {
+    color: white;
+    text-decoration: underlines;
+  }
+  
+  .linkTitleNavBar {
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .linkTitleNavBar:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #TextNavBar {
+    color: white;
+  }
+  
+  .NavBarContent {
+    background-color: #e35b80;
+  }
+  
+  .linkNavBarPDFMobile {
+    display: none;
+    margin: 0;
+  }
+  
+  .linkNavBarPDFDestock {
+    margin: 0;
+  }
